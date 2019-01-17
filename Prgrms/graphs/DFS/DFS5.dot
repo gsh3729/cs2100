@@ -1,0 +1,18 @@
+graph one
+{
+0 -- 2 [color = red ];
+0 -- 6 [color = black ];
+0 -- 8 [color = black ];
+1 -- 8 [color = red ];
+2 -- 6 [color = red ];
+2 -- 9 [color = black ];
+4 -- 7 [color = red ];
+4 -- 9 [color = red ];
+5 -- 6 [color = red ];
+5 -- 7 [color = red ];
+5 -- 8 [color = black ];
+6 -- 9 [color = black ];
+7 -- 9 [color = black ];
+8 -- 9 [color = red ];
+3;
+}

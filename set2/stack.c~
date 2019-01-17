@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct stack
+{
+	char name[20];
+	struct stack *next;
+	
+}stack;
+
+void stackPush(stack* stk, string x);
+string stackPop(stack* stk);
+int stackSize(stack stk);
+int stackIsEmpty(stack stk);
+void stackTop(stackstk);
+
+void main()
+{
+	
+}
+int stackIsEmpty(stack stk)
+{
+

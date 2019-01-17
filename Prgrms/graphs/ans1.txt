@@ -1,0 +1,19 @@
+graph one
+{
+0  [color = red , style = filled] ;
+1  [color = green , style = filled] ;
+2  [color = blue , style = filled] ;
+3  [color = orange , style = filled] ;
+4  [color = black , style = filled] ;
+5  [color = white , style = filled] ;
+6  [color = (null) , style = filled] ;
+7  [color = (null) , style = filled] ;
+8  [color = (null) , style = filled] ;
+9  [color = (null) , style = filled] ;
+10  [color = (null) , style = filled] ;
+11  [color = (null) , style = filled] ;
+12  [color = (null) , style = filled] ;
+13  [color = (null) , style = filled] ;
+14  [color = (null) , style = filled] ;
+15  [color = (null) , style = filled] ;
+}

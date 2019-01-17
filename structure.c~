@@ -1,0 +1,63 @@
+/*
+NAME : G.SRIHARSHA;
+ROLL : 111601005;
+*/
+#include<stdio.h>
+#include<string.h>
+
+struct student 
+{
+	char name[30];
+	int id;
+};
+ 
+
+void PrintStruc(struct student);
+void ChangingData(struct student *);
+
+void main()
+{
+	struct student stu1;
+	struct student *strptr;
+	strptr = &stu1;
+	strcpy(stu1.name,"SRIHARSHA");
+	stu1.id = 111601005;
+	
+	PrintStruc(stu1);
+	ChangingData(strptr);
+	printf("\nUpdated Name:%s",strptr->name);
+	printf("\nUpdated ID:%d \n",strptr->id);
+
+}
+ 
+void PrintStruc(struct student s1)
+{
+	printf("\nStudent name: %s",s1.name);
+	printf("\nStudent id: %d",s1.id);
+}
+
+void ChangingData(struct student *p)
+{
+	strcpy(p->name,"abc");
+	p->id=123;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

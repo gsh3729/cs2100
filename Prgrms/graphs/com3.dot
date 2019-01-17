@@ -1,0 +1,16 @@
+graph one
+{
+0 -- 1 [color = green];
+0 -- 7 [color = green];
+1 -- 6 [color = green];
+2 -- 4 [color = green];
+2 -- 9 [color = green];
+3 -- 5 [color = green];
+3 -- 7 [color = green];
+3 -- 9 [color = green];
+4 -- 6 [color = green];
+5 -- 8 [color = green];
+6 -- 7 [color = green];
+6 -- 8 [color = green];
+6 -- 9 [color = green];
+}
